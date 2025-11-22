@@ -12,7 +12,7 @@ with st.sidebar:
 
 
 def generate_response(input_text):
-    model = 'llama-3.2-11b-vision-preview'
+    model = 'llama-3.1-8b-instant'
     groq_chat = ChatGroq(
         groq_api_key=groq_api_key, 
         model_name=model    
